@@ -21,17 +21,17 @@ const Home: NextPage = () => {
         </h1>
         <ul>
           <li>
-            <Link href="/images?id=0">
+            <Link prefetch={false} href="/images?id=0">
               <a>image 0</a>
             </Link>
           </li>
           <li>
-            <Link href="/images?id=1">
+            <Link prefetch={false} href="/images?id=1">
               <a>image 1</a>
             </Link>
           </li>
           <li>
-            <Link href="/images?id=2">
+            <Link prefetch={false} href="/images?id=2">
               <a>image 2</a>
             </Link>
           </li>
