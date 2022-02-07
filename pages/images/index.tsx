@@ -11,6 +11,7 @@ const imagesUrl = [
 const Images = () => {
   const router = useRouter() 
   const { id } = router.query
+  console.log(imagesUrl[Number(id)])
 
   return (
     <div className={styles.container}>
