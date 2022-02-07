@@ -17,12 +17,25 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Image sharing 
+          Image sharing
         </h1>
-        <Link href="/images">
-          <a>images</a>
-        </Link>
-
+        <ul>
+          <li>
+            <Link href="/images?id=0">
+              <a>image 0</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/images?id=1">
+              <a>image 1</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/images?id=2">
+              <a>image 2</a>
+            </Link>
+          </li>
+        </ul>
       </main>
     </div>
   )
